@@ -1,0 +1,42 @@
+#backgroundcolor {
+    background-color: lightskyblue;
+    padding-top: 30px;
+}
+
+h1 {
+    background-color: peachpuff;
+    font-size: 45px;
+
+}
+
+#showdrawings {
+    float: right;
+
+}
+
+hr {
+    visibility: hidden;
+}
+
+canvas {
+    border-width: 10px;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+
+    animation-name: animation-canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes animation-canvas {
+    from {
+        box-shadow: 1px 1px 38px darkred;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px indigo;
+    }
+}
